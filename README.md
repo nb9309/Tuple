@@ -18,4 +18,16 @@ ii)Non-empty type:
    syntax5: tpl = ([obj])       => obj: non-iterable
    syntax6: tpl = ([obj,])      => obj: non-iterable
    syntax7: tpl = tuple(object) => obj: iterable
+
+**#predefined functions**
+   i)Indexing
+   ii)count
+
+**Nested Tuple**
+case-i)   Tuple in Tuple
+case-ii)  Tuple in List
+     ->   To change values in tuple we have to convert tuple into List. again list into tuple.
+case iii) List in Tuple
+     -> we can change values in Tuple directly.
+
     
